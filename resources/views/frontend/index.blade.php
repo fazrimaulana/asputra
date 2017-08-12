@@ -266,7 +266,7 @@
                         </tr>
                         @endforeach
                     </table>
-                    {{ $pemesanan->fragment('pesan')->links() }}
+                    {{ $pemesanan->fragment('pesan')->render() }}
 
                 </div>
             </div>
